@@ -5,7 +5,8 @@ setup(
     version='0.1dev',
     packages=find_packages(),
     license='',
-    python_requires=[
+    python_requires=">=3.8.*",
+    install_requires=[
         'scipy>=1.4.1',
         'matplotlib>=3.2.1',
         'tqdm>=4.46.0',
